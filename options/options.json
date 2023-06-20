@@ -1,0 +1,62 @@
+{
+    "menu_id": "HMHCC_menu",
+    "parent_menu_id": "blt_options",
+    "title": "HMHCC_title",
+    "description": "HMHCC_desc",
+    "items": [
+        {
+            "type": "slider",
+            "id": "panel_position_slider",
+            "title": "panel_position_title",
+            "description": "panel_position_desc",
+            "callback": "callback_panel_position",
+            "value": "panel_position",
+            "max": 500,
+            "min": 0,
+            "step": 10,
+            "default_value": 40
+        },
+        {
+            "type": "slider",
+            "id": "open_speed_slider",
+            "title": "open_speed_title",
+            "description": "open_speed_desc",
+            "callback": "callback_open_speed",
+            "value": "open_speed",
+            "max": 100,
+            "min": 1,
+            "step": 1,
+            "default_value": 50
+        },
+        {
+            "type": "slider",
+            "id": "close_speed_slider",
+            "title": "close_speed_title",
+            "description": "close_speed_desc",
+            "callback": "callback_close_speed",
+            "value": "close_speed",
+            "max": 100,
+            "min": 1,
+            "step": 1,
+            "default_value": 75
+        },
+        {
+            "type": "toggle",
+            "id": "kill_anim_toggle",
+            "title": "kill_anim_title",
+            "description": "kill_anim_desc",
+            "callback": "callback_kill_anim",
+            "value": "kill_anim",
+            "default_value": true
+        },
+        {
+            "type": "toggle",
+            "id": "kill_flash_toggle",
+            "title": "kill_flash_title",
+            "description": "kill_flash_desc",
+            "callback": "callback_kill_flash",
+            "value": "kill_flash",
+            "default_value": true
+        }
+    ]
+}

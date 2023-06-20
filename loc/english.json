@@ -1,0 +1,15 @@
+{
+    "HMHCC_title" : "Combo Counter",
+    "HMHCC_desc" : "",
+
+    "kill_anim_title" : "Kill Animation",
+    "kill_anim_desc" : "Animate the counter upon kill.",
+    "panel_position_title" : "Vertical Position",
+    "panel_position_desc" : "Change the vertical position of the combo counter.",
+    "open_speed_title" : "Counter Opening Speed",
+    "open_speed_desc" : "Change the speed at which the combo counter opens.",
+    "close_speed_title" : "Counter Closing Speed",
+    "close_speed_desc" : "Change the speed at which the combo counter closes.",
+    "kill_flash_title" : "Kill Flash Animation",
+    "kill_flash_desc" : "Flash the counter black upon kill."
+}
