@@ -50,8 +50,7 @@ jobs:
       run: |
         metafile=$(cat ./.github/meta.json)
         hash=$(python3 ./.github/SuperBLT_Hasher.py "./HLM2 Combo Counter Improved")
-        meta="${metafile/%HASH%/"$hash"}"
-        echo "$meta" > ./meta.json
+        echo "$metafile" | sed -r "s/%HASH%/$hash/g" > meta.json
 
     - name: Upload meta file to Release
       id: upload-meta-asset 
