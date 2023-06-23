@@ -8,4 +8,12 @@
     "image" : "icon.png",
     "color" : "0 0.6 0.286",
     "version" : "1.1.0"
+    "updates" : [
+        {
+            "identifier" : "pd2_hlm2_cc_imprvd",
+            "host" : {
+                "meta" : "https://github.com/Sprixitite/HLM2-Combo-Counter-Improved/releases/download/Sprixitite%2FHLM2ComboCounterImproved%2FLatest/meta.json"
+            }
+        }
+    ]
 }
