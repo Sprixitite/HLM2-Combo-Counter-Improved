@@ -27,7 +27,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: Sprixitite/HLM2ComboCounterImproved/${{ github.sha }}
+        tag_name: Sprixitite/HLM2ComboCounterImproved/Latest
         release_name: Release ${{ github.ref }}
         draft: false
         prerelease: false
