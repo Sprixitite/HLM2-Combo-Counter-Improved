@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <mod>
     <!-- Main code -->
+    <!-- Hello From This Random XML File! -->
     <hooks script_path="lua/">
             <group hook_id="lib/managers/">
                 <post :hook_id="hudmanagerpd2"  :script_path="HotlineCore.lua"/>
