@@ -1,0 +1,11 @@
+{
+    "name" : "HLM2 Combo Counter Improved",
+    "description" : "",
+    "author" : "Sprixitite, formerly Eightan",
+    "contact" : "@sprixitite on discord",
+    "supermod_definition" : "hmcc.xml",
+    "blt_version" : 2,
+    "image" : "icon.png",
+    "color" : "0 0.6 0.286",
+    "version" : "1.1.0"
+}
