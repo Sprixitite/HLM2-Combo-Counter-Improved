@@ -48,8 +48,8 @@ jobs:
     - name: Hash mod and create meta file
       id: create_meta_file
       run: |
-        metafile=$(cat ./github/meta.json)
-        hash=$(python3 ./SuperBLT_Hasher.py "./HLM2 Combo Counter Improved")
+        metafile=$(cat ./.github/meta.json)
+        hash=$(python3 ./.github/SuperBLT_Hasher.py "./HLM2 Combo Counter Improved")
         meta="${metafile/%HASH%/"$hash"}"
         echo "$meta" > ./meta.json
 
